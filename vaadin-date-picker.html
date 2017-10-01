@@ -232,7 +232,7 @@ If you want to replace the default input field with a custom implementation, you
       </div>
 
       <template is="dom-if" if="[[errorMessage]]">
-        <paper-input-error aria-live="assertive">[[errorMessage]]</paper-input-error>
+        <paper-input-error slot="add-on" aria-live="assertive">[[errorMessage]]</paper-input-error>
       </template>
     </paper-input-container>
 
